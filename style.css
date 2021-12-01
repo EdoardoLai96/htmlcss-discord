@@ -21,16 +21,40 @@ height: 500px;
 
  /* header */
 header{
-    background-color: blue;
+background-color: #3161E0;
 }
 
 header .row{
-height: 100px;
-background-color: pink;
+height: 60px;
+background-color: #3161E0;
 width: 80%;
 margin: auto;
 border: 2px solid black;
 max-width: 1180px;
+}
+
+header .row::after{
+    display: table;
+    content: "";
+    clear: both;
+}
+
+/* nav */
+#logo{
+    display: inline-block;
+    float: left;
+}
+
+nav{
+    display: inline-block;
+    float: left;
+}
+nav li {
+    display: inline-block;
+}
+
+#accedi{
+    float: left;
 }
 
 /* jumbotron */
