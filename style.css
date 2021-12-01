@@ -201,7 +201,9 @@ main .content-container::after{
     clear: both;
 }
 
-main .left-content{
+/* SEZIONE BIANCA */
+
+.container.white .img-content{
     width: 60%;
     height: 100%;
     object-fit: contain;
@@ -209,12 +211,72 @@ main .left-content{
     
 }
 
-main .right-content{
+.container.white .text-content{
     width: 40%;
     height: 100%;
     float: right;
     position: relative;
 }
+.container.white .text-content h2{
+    font-size: 34px;
+}
+
+.container.white .text-content p{
+    line-height: 130%;
+    padding-top: 20px;
+}
+
+
+.container.white .img-content img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+main .container.white{
+    height: 600px;
+    background-color: white;
+}
+
+/* FINE SEZIONE BIANCA */
+
+/* SEZIONE GRIGIA */
+
+.container.gray .img-content{
+    width: 60%;
+    height: 100%;
+    display: inline-block;
+}
+
+.container.gray .text-content{
+    width: 40%;
+    height: 100%;
+    float: left;
+    position: relative;
+}
+.container.gray .text-content h2{
+    font-size: 34px;
+}
+
+.container.gray .text-content p{
+    line-height: 130%;
+    padding-top: 20px;
+}
+
+
+.container.gray .img-content img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+main .container.gray{
+    height: 600px;
+    background-color: white;
+}
+
+
+/* FINE SEZIONE GRIGIA */
 
 main .block{
     position: absolute;
@@ -225,26 +287,6 @@ main .block{
     height: 60%;
 }
 
-main .right-content h2{
-    font-size: 34px;
-}
-
-main .right-content p{
-    line-height: 130%;
-    padding-top: 20px;
-}
-
-
-main .left-content img{
-    height: 100%;
-    width: 100%;
-    object-fit: contain;
-}
-
-main .container.white{
-    height: 600px;
-    background-color: white;
-}
 
 main .container.gray{
     height: 600px;
