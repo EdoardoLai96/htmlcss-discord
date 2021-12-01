@@ -15,6 +15,7 @@ height: 500px;
     margin: auto;
     height: 100%;
     border: 2px solid black;
+    max-width: 1180px;
 }
 /* fine common */
 
