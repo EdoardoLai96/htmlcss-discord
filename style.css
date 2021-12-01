@@ -92,8 +92,19 @@ nav li {
 /* jumbotron */
 #jumbotron{
     background-color: aqua;
+    background-image: url(img_5/jumbo.png);
+    background-size: cover;
+    background-position: center;
+    min-height: 600px;
+    width: 100%;
+    margin: auto;
+
 }
 
+#jumbotron .container{
+    max-width: 700px;
+    
+}
 
 /* main  */
 main{
