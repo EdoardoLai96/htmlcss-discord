@@ -17,6 +17,7 @@ height: 500px;
     height: 100%;
     border: 2px solid black;
     max-width: 1180px;
+    position: relative;
 }
 
 a{
@@ -185,11 +186,30 @@ main{
     background-color: yellow;
 }
 
-.content-container{
+main .content-container{
     border: 2px solid black;
     height: 500px;
-    width: 500px;
-    
+    width: 80%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+main .left-content{
+    width: 40%;
+    height: 100%;
+}
+
+main .left-content{
+    width: 60%;
+    height: 100%;
+}
+
+main .left-content img{
+    object-fit: contain;
+    height: 100%;
+    width: 100%;
 }
 
 main .container.white{
