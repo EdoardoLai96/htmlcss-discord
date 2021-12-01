@@ -18,6 +18,10 @@ height: 500px;
     border: 2px solid black;
     max-width: 1180px;
 }
+
+a{
+ text-decoration: none;
+}
 /* fine common */
 
  /* header */
@@ -69,25 +73,28 @@ nav li {
 }
 
 .btn{
-    float: right;
-    width: 5%;
-    text-align: right;
-    border-radius: 40px;
-    text-align: center;
-    line-height: 60px;
-    height: 60px;
-    vertical-align: middle;
-    margin-right: 1%;
+
 }
 
-#accedi{
-    color: #000;
-    text-decoration: none;
-    border-radius: 40px;
-    background-color: #fff;
-    padding: 8px 8px;
-    font-size: 11px;
+.btn{
+padding: 8px 16px;
+border-radius: 40px;
 }
+
+.btn-white{
+    background-color: #fff;
+    color: #000;
+}
+
+.btn-login{
+    font-size: 13px;
+}
+
+.right{
+    float: right;
+
+}
+
 
 /* jumbotron */
 #jumbotron{
@@ -95,7 +102,7 @@ nav li {
     background-image: url(img_5/jumbo.png);
     background-size: cover;
     background-position: center;
-    min-height: 600px;
+    min-height: 400px;
     width: 100%;
     margin: auto;
 
@@ -125,15 +132,6 @@ text-align: center;
 margin-bottom: 20px;
 }
 
-#jumbotron .container .btn-container .btn-big{
-display: inline;
-margin-right: 20px;
-border-radius: 40px;
-line-height: 40px;
-height: 40px;
-background-color: white;
-padding: 16px 32px;
-}
 
 #jumbotron .container .btn-container .btn-big a{
 text-decoration: none;
@@ -146,7 +144,6 @@ color: black;
 #freccia{
     height: 10px;
 }
-
 
 /* main  */
 main{
