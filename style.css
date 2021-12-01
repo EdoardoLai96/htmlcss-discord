@@ -5,20 +5,31 @@
     margin: 0;
     padding: 0;
 }
+
+.debug{
+height: 500px;
+}
 /* fine common */
 
  /* header */
-
- /* fine header */
+header{
+    background-color: blue;
+}
 
 /* jumbotron */
+#jumbotron{
+    background-color: aqua;
+}
 
-/* fine jumbotron */
 
 /* main  */
+main{
+    background-color: yellow;
+}
 
-/* fine main  */
 
 /* footer  */
+footer{
+    background-color: grey;
+}
 
-/* fine footer  */
