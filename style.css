@@ -9,6 +9,13 @@
 .debug{
 height: 500px;
 }
+
+.container{
+    width: 80%;
+    margin: auto;
+    height: 100%;
+    border: 2px solid black;
+}
 /* fine common */
 
  /* header */
