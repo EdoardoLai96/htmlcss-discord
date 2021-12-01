@@ -12,11 +12,8 @@ height: 500px;
 }
 
 .container{
-    width: 80%;
     margin: auto;
     height: 100%;
-    border: 2px solid black;
-    max-width: 1180px;
     position: relative;
 }
 
@@ -122,7 +119,6 @@ nav li {
 
 /* jumbotron */
 #jumbotron{
-    background-color: aqua;
     background-image: url(img_5/jumbo.png);
     background-size: cover;
     background-position: center;
@@ -134,6 +130,7 @@ nav li {
 
 #jumbotron .container{
     max-width: 700px;
+    width: 80%;
     color: white;
     border-style: none;
     position: absolute;
@@ -182,11 +179,8 @@ color: black;
 }
 
 /* main  */
-main{
-}
 
 main .content-container{
-    border: 2px solid black;
     height: 500px;
     width: 100%;
     position: absolute;
@@ -236,6 +230,7 @@ main .content-container::after{
 main .container.white{
     height: 600px;
     background-color: white;
+    width: 80%;
 }
 
 /* FINE SEZIONE BIANCA */
@@ -272,11 +267,63 @@ main .container.white{
 
 main .container.gray{
     height: 600px;
-    background-color: white;
+    width: 100%;
+    background-color: #F6F6F6;
 }
 
+.container.gray .content-container{
+    width: 80%;
+}
 
 /* FINE SEZIONE GRIGIA */
+
+
+/* SEZIONE BOTTOM */
+
+
+.container.bottom .text-content{
+    width: 100%;
+    height: 20%;
+    position: relative;
+    display: inline-block;
+}
+.container.bottom .text-content h2{
+    font-size: 34px;
+    text-align: center;
+}
+
+.container.bottom .text-content p{
+    line-height: 130%;
+    padding-top: 20px;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+}
+
+.container.bottom .img-content{
+    width: 100%;
+    display: inline-block;
+    height: 80%;
+}
+
+.container.bottom .img-content img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+main .container.bottom{
+    height: 600px;
+    background-color: #F6F6F6;
+    width: 100%;
+}
+
+.content-container.ultimo{
+    width: 60%
+
+}
+
+/* FINE SEZIONE BOTTOM */
 
 main .block{
     position: absolute;
@@ -287,18 +334,11 @@ main .block{
     height: 60%;
 }
 
-
-main .container.gray{
-    height: 600px;
-
-    background-color: #dfdddd;
-    
-}
-
-
-
 /* footer  */
 footer{
     background-color: gray;
 }
 
+footer .container{
+    border: 2px solid black;
+}
