@@ -185,9 +185,29 @@ main{
     background-color: yellow;
 }
 
+.content-container{
+    border: 2px solid black;
+    height: 500px;
+    width: 500px;
+    
+}
+
+main .container.white{
+    height: 600px;
+    background-color: white;
+}
+
+main .container.gray{
+    height: 600px;
+
+    background-color: #dfdddd;
+    
+}
+
+
 
 /* footer  */
 footer{
-    background-color: grey;
+    background-color: gray;
 }
 
