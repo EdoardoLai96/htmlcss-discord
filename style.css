@@ -22,6 +22,44 @@ height: 500px;
 a{
  text-decoration: none;
 }
+
+#arrow{
+margin-right: 10px;
+}
+
+.btn{
+    padding: 8px 16px;
+    border-radius: 40px;
+    }
+    
+    .btn-white{
+        background-color: #fff;
+        color: #000;
+    }
+    
+    .btn-black{
+        background-color: #000;
+        color: #fff;
+    }
+
+
+    .btn-login{
+        font-size: 10px;
+        padding: 8px 12px;
+ 
+    }
+
+    .btn-login.btn-white.btn{
+        width: 10%;
+    }
+    
+    .btn-big{
+        font-size: 15px;
+        padding: 12px 24px;
+    }
+
+
+
 /* fine common */
 
  /* header */
@@ -72,26 +110,11 @@ nav li {
     display: inline-block;
 }
 
-.btn{
-
-}
-
-.btn{
-padding: 8px 16px;
-border-radius: 40px;
-}
-
-.btn-white{
-    background-color: #fff;
-    color: #000;
-}
-
-.btn-login{
-    font-size: 13px;
-}
 
 .right{
     float: right;
+    width: 10%;
+    text-align: right;
 
 }
 
@@ -105,13 +128,18 @@ border-radius: 40px;
     min-height: 400px;
     width: 100%;
     margin: auto;
-
+    position: relative;
 }
 
 #jumbotron .container{
     max-width: 700px;
     color: white;
     border-style: none;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+
 }
 
 #jumbotron .container h1{
@@ -127,9 +155,16 @@ margin-bottom: 20px;
 line-height: 25px;
 }
 
-#jumbotron .container .btn-container{
+#jumbotron .btn-container{
 text-align: center;
 margin-bottom: 20px;
+padding-top: 20px;
+
+}
+
+#jumbotron .btn-container div{
+    display: inline-block;
+    margin-right: 20px;
 }
 
 
