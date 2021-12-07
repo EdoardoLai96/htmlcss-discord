@@ -477,6 +477,11 @@ float: right;
 .underline{
     text-decoration: underline;
 }
+
+.pointer{
+    cursor: pointer;
+}
+
 /* FINE MODIFIERS */
 
 
@@ -659,6 +664,17 @@ color: black;
     height: 10px;
 }
 
+.jumbo-btn-1:hover{
+background-color: #9d8ee1;
+color: white;
+}
+
+.jumbo-btn-2:hover{
+    background-color: #9d8ee1;
+    color: white;
+    }
+    
+
 /* MAIN  */
 
 main{
@@ -696,6 +712,10 @@ main p{
     object-fit: contain;
 }
 
+#mac-download:hover{
+background-color: black;
+color: white;
+}
 
 /* WHITE SECTION  */
 
@@ -786,9 +806,25 @@ footer{
     width: 70%;
 }
 
+.hover-undline:hover{
+    text-decoration: underline;
+}
+
 .flag{
     height: 12px;
+    width: 17.6px;
 }
+
+
+.flag-show:hover .flag-noshow{
+    display: block;
+}
+
+.flag-noshow{
+    display: none;
+}
+
+
 
 .fa-chevron-down:before{
     font-size: 10px;
@@ -810,4 +846,8 @@ margin: auto;
 max-width: 1180px;
 height: 60px;
 }
-    
+
+.registrati:hover{
+    color: white;
+    background-color: black;
+}
