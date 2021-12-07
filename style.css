@@ -495,7 +495,7 @@ a{
  text-decoration: none;
 }
 
-#arrow{
+.arrow{
 margin-right: 10px;
 }
 
@@ -819,6 +819,20 @@ footer{
 .flag-show:hover .flag-noshow{
     display: block;
 }
+
+.flag-show:hover .flag-noshow{
+    display: block;
+}
+
+#language-text-special:hover{
+    text-decoration: underline;
+}
+
+
+.language-text:hover{
+    text-decoration: underline;
+}
+
 
 .flag-noshow{
     display: none;
